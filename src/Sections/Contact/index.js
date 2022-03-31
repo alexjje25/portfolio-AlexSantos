@@ -163,7 +163,7 @@ export function Contact(props){
           {" "}
           <img src={Facebook} alt="Facebook" />
         </a>
-        <a href="https://www.linkedin.com//">
+        <a href="https://www.linkedin.com/in/alex-santos-54b470164/">
           <img src={LinkedId} alt="LinkedId" />
         </a>
         </Icons>
