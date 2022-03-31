@@ -1,0 +1,55 @@
+{
+  "name": "portfolioalexsantos",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://alexjje25.github.io/portfolio-AlexSantos",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/styled-components": "^5.1.24",
+    "aos": "^2.3.4",
+    "emailjs": "^3.8.0",
+    "emailjs-com": "^3.2.0",
+    "gsap": "^3.10.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "react-slick": "^0.28.1",
+    "react-typical": "^0.1.3",
+    "react-typing-effect": "^2.0.5",
+    "styled-components": "^5.3.5",
+    "typescript": "^4.6.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.4",
+    "@types/react-slick": "^0.23.8"
+  }
+}
