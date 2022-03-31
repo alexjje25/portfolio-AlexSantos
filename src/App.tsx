@@ -11,7 +11,6 @@ function App() {
     <>
       <Suspense fallback={null}>
         <GlobalStyle/>
-       
         <ScrollToTop />
         <Header />
         <Home />

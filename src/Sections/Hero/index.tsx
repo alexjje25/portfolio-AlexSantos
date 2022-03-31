@@ -5,8 +5,6 @@ import styled, { keyframes } from "styled-components";
 import rocket from "../../assets/rocket image.png";
 
 
-
-
 const move = keyframes`
 0% { transform: translateY(-5px)  }
     50% { transform: translateY(10px) }
@@ -29,8 +27,6 @@ const HomeSection = styled.section`
     padding-bottom: 2rem;
   }
 `;
-
-
 const MainContent = styled.div`
   display: flex;
   justify-content: center;
@@ -43,7 +39,6 @@ const MainContent = styled.div`
     width: 100vw;
   }
 `;
-
 const MobileSvg = styled.img`
   max-width: 100%;
   width: calc(% + 18vw);
@@ -61,7 +56,6 @@ const MobileSvg = styled.img`
     display: none;
   }
 `;
-
 const Lb = styled.div`
   display: flex;
   flex-direction: column;
@@ -83,11 +77,6 @@ const Lb = styled.div`
     filter: none;
   }
 `;
-
-
-
-
-
 const Title = styled.h1`
   font-size: calc(2.2rem + 1vw);
   font-family: Arial;
@@ -96,36 +85,18 @@ const Title = styled.h1`
  
 `;
 
-
-
-
-
 export const HeroSection: React.FC = () => {
-
-
   return (
     <HomeSection id="home">
-   
-
       <MainContent id="home">
-      
         <Lb id="leftBlock" >
-        
           <Title >
             I am Alex Santos
-      </Title>
-            
-        
-        
-          
-          
+          </Title>
         </Lb>
-        
-
         <MobileSvg
-          src={rocket }
+          src={rocket}
           alt="Mobile Svg"
-          
           width="340"
           height="370"
         />

@@ -1,9 +1,6 @@
 import styled from 'styled-components';
 
 
-
-
-
 export const ServicesSection = styled.section`
     display: flex;
     width: 100%;
@@ -35,9 +32,6 @@ export const ContentSectionServices = styled.div`
     justify-content: space-between;
     align-items: center;
     width: 100%;
-   
-    
-
     @media(max-width: 858px){
         flex-wrap: wrap;
         justify-content: center;
@@ -48,22 +42,16 @@ export const ContentSectionServices = styled.div`
     }
 
 `;
-
-
 export const ServiceBox = styled.div`
  
     width: 310px;
     height: 350px;
     background-image: linear-gradient(to right, #00020f,#00020f,black);
-    
     justify-content: center;
     padding: 50px 10px 20px 20px;
     border-radius: 10px;
     box-shadow: 5px 5px 20px;
     margin:  0 150px;
-    
-    
-   
     @media(max-width: 858px){
         margin-bottom: 40px;
         

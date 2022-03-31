@@ -95,28 +95,22 @@ export const Testimonals = () => {
             name="React JS"
             image="avatar-1"
           />
-
           <Card
             text="O redux-saga é uma biblioteca que foca em fazer os efeitos colaterais (ex: chamadas assíncronas para buscar dados em uma API, transformações impuras como acessar o cache do navegador, etc) em aplicações React/Redux serem mais fáceis e simples de se criar e manter."
             name="Redux-Saga"
             image="avatar-2"
-            
           />
-
           <Card
             text="Styled Components permitem a escrita de CSS em JavaScript usando Tagged Templates Literals."
             name="Styled-components"
             image="avatar-3"
            
           />
-
-         
           <Card
             text="TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem."
             name="Typescript"
             image="avatar-4"
           />
-
         </Slider>
       </Carousal>
     </Section>

@@ -17,8 +17,6 @@ const FOOTER = styled.footer`
   }
 `;
 
-
-  
 const LeftText = styled.div`
   text-align: left;
 `;
@@ -27,8 +25,6 @@ const Footer = () => {
     <FOOTER>
       <LeftText>
         © 2022 Alex Santos
-        
-      
       </LeftText>
      
     </FOOTER>

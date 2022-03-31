@@ -7,7 +7,6 @@ interface ContainerChangeDirection{
 }
 
 
-
 export const PortfolioSection = styled.section`
     display: flex;
     width: 100%;
@@ -32,8 +31,6 @@ export const Container = styled.div`
     max-width: 1140px;
 `;
 
-
-
 export const ContentSectionPortfolio = styled.div`
     display: flex;
     align-items: center;
@@ -41,8 +38,6 @@ export const ContentSectionPortfolio = styled.div`
     flex-direction: column;
     width: 100%;
 `;
-
-
 export const RepoContainer = styled.div<ContainerChangeDirection>`
     display: flex;
     width: 100%;
@@ -51,14 +46,6 @@ export const RepoContainer = styled.div<ContainerChangeDirection>`
     transition: .4s;
     border-radius: 30px;
     margin-bottom: 50px;
-    
-    
-
-    
-  
-
-
-
     &+:last-child{
         margin-bottom: 0;
     }
@@ -96,7 +83,6 @@ export const RepoContainer = styled.div<ContainerChangeDirection>`
     }
 
 `;
-
 export const InfoRepo = styled.div`
     display: flex;
     flex-direction: column;
@@ -113,9 +99,6 @@ export const InfoRepo = styled.div`
         transition: all .3s;
     }
 
-    
-    
-
     p{
         font-size: 1.3rem;
         color: rgba(255,255,255,.6);
@@ -127,7 +110,6 @@ export const InfoRepo = styled.div`
     }
 
 `;
-
 export const DetailsRepoNav = styled.nav`
     display: flex;
     justify-content: space-between;
@@ -153,8 +135,6 @@ export const DetailsRepoNav = styled.nav`
         }
     }
 `;
-
-
 export const Button = styled.div`
  {
 		display: flex;
@@ -163,11 +143,6 @@ export const Button = styled.div`
 		justify-content: center;
 		margin-top: 64px;
 		margin-bottom: 32px;
-        
-        
-        
-
-
 		 {
 			background-image: linear-gradient(to right, #616475,#000,#000);
 			background-size: 300% 100%;
@@ -176,8 +151,6 @@ export const Button = styled.div`
 			display: inline-block;
 			font-size: 1rem;
             font-family: Rosario;
-            
-       
 			opacity: 1;
 			padding: 16px 32px;
 			font-weight: 700;
@@ -206,9 +179,6 @@ export const Title = styled.div`
     margin-bottom: 8px;
     text-align: center;
     color: white;
-   
-    
-    
 font-size:30px; font-weight:700; font-family: Rosario; letter-spacing:1px; text-transform:uppercase; width:160px; text-align:center; margin:auto; white-space:nowrap; padding-bottom:100px;
 
 :before {
@@ -220,6 +190,4 @@ font-size:30px; font-weight:700; font-family: Rosario; letter-spacing:1px; text-
     margin-bottom: -5vh;
     
 }
-
-
 `;

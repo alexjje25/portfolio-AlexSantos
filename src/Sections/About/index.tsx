@@ -4,8 +4,6 @@ import perfil1 from "../../assets/perfil1.png";
 import human from "../../assets/human.svg";
 
 
-
-
 const move = keyframes`
 0% { transform: translateY(-5px)         }
     50% { transform: translateY(10px) translateX(10px)        }
@@ -121,12 +119,10 @@ export const About = () => {
   return (
     <AboutSection id="about">
       <Waves src={wave} alt="" />
-      
+
       <Main>
         <div>
-          
           <Title>Sobre</Title>
-          
         </div>
         <Content>
           <Rocket>
@@ -136,12 +132,10 @@ export const About = () => {
             <Human>
               <img src={human} alt="" width="400" height="400" />
             </Human>
-            
             <Text>
-               Meu nome é Alex, Atuo como Desenvolvedor Front-End, Desde muito novo sou apaixonado 
-               por tecnologia, gosto muito de provocar transformação positiva e superar desafios.
+              Meu nome é Alex, Atuo como Desenvolvedor Front-End, Desde muito novo sou apaixonado
+              por tecnologia, gosto muito de provocar transformação positiva e superar desafios.
             </Text>
-          
             <div>
               <Circle style={{ backgroundColor: "var(--purple)" }} />
               <Circle style={{ backgroundColor: "var(--pink)" }} />

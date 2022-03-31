@@ -24,7 +24,6 @@ const Home = () => {
       <About />
       <Projetos />
       <Services />
-      
       <Contact />
     </Container>
   );
