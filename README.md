@@ -1,3 +1,14 @@
+<h1 align="center"> Portfolio Versão Web
+  </br>
+   </br>
+<a href="https://ibb.co/0QcZmNX"><img src="https://i.ibb.co/qxd97Gn/276010772-1010281542935100-8457777808639458743-n.png" alt="276010772-1010281542935100-8457777808639458743-n" border="0"></a>
+</h1>
+<h2 align="center">  Versão Mobile
+</br>
+</br>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/rGKBzYf/276003081-375263567799253-9164521121934423402-n.png" alt="276003081-375263567799253-9164521121934423402-n" border="0"></a>
+</h2>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
